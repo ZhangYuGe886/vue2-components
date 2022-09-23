@@ -87,7 +87,14 @@ export default {
   }
 }
 </script>
-
-<style>
-
+ 
+<style lang="less" scoped>
+.container-left {
+    height: 100%;
+    .scroll {
+      height: 100%;
+      scrollbar-width: none;
+      overflow-y: scroll;
+    }
+  }
 </style>
